@@ -5,12 +5,12 @@ button {
     margin: auto;
     font-size: larger;
     display: block;
-    
+    border: none;
 }
 
 
 * {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color : rgb(148, 148, 248);
 }
 
@@ -20,16 +20,21 @@ header  {
      background-repeat: no-repeat;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
-    height: 43vh;
-    background-size: cover;    
+    height: 33vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    background-attachment: fixed;
+
 }
 
 
 img {
     width: 100px;
-    height: 30px;
+    height: 20px;
     display: block;
     margin: auto;
+    
     
 }
 
@@ -38,8 +43,9 @@ p {
     text-align: center;
     display: block;
     font-size: xx-large;
-    font-weight: 900;
+    font-weight:bolder;
     margin-top: 50px;
+
 }
 
 
@@ -47,6 +53,11 @@ footer {
     text-align: center;
     font-size: xx-large;
     font-weight: bold;
+}
+
+
+a {
+    text-decoration: underline 5px white;
 }
 
 
